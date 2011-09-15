@@ -1,0 +1,5 @@
+14 9 2011 11:51:48,813 INFO  ~ Starting D:\play\workspace\yabe
+14 9 2011 11:51:49,172 WARN  ~ You're running Play! in DEV mode
+14 9 2011 11:51:49,250 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+14 9 2011 11:52:11,584 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+14 9 2011 11:52:12,426 INFO  ~ Application 'YetAnotherBlogEngine' is now started !

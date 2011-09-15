@@ -5,11 +5,21 @@
 # Home page
 GET     /                                       Application.index
 
+# Comment Page
+GET     /posts/{id}                             Application.show
+
+# Post Comment
+POST    /posts/{postId}/comments                Application.postComment
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+# Captcha
+GET     /captcha                                Application.captcha
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+	
